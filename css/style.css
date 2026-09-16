@@ -1,0 +1,89 @@
+body{
+    background-color: #f0f8ff;
+    color: #21868a;
+    font: normal 16px Palatino, URW Palladio L, serif;
+    line-height: 1.3em;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    border: 1px solid #5f9ea0;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    border: 1px solid #5f9ea0;
+    padding: 20px;
+    border-radius: 20px; 
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top:50px;
+    
+}
+.navigation-bar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-bar ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+}
+
+i{
+    margin-right: 7px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.button {
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    margin-top:20px;
+}
+
+
+a:hover{
+    color:#6c5c9d;
+}
+
+form{
+    padding:20px;
+    text-align: center;
+    
+}
+
+form input[type="submit"]{
+    margin: 15px;
+    background-color: #bbe0e2;
+    border: 2px solid #5f9ea0;
+    border-radius: 15px;
+    color: #0a5d60;
+    cursor: pointer;
+    
+}
+
+form input[type="submit"]:hover{
+    color:#5f9ea0;
+}
+
+

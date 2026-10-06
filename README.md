@@ -1,12 +1,11 @@
 # EventBook
 # EventBook
 
-EventBook is an event management and coordination platform designed for hospitality venues, resorts, and restaurants. It streamlines the booking workflow for clients while automatically delegating operational requirements to the appropriate internal departments.
+EventBook is a straightforward reservation and scheduling web platform designed for hospitality venues and event spaces. It allows clients to browse availability and book event spaces, while providing venue managers with a centralized calendar to oversee reservations.
 
 ## Core Features
 
-* **Customer Portal:** Clients can register, reserve dates, view upcoming and past reservations, and communicate directly with venue coordinators.
-* **Granular Event Requirements:** Custom booking requests are broken down by category—including catering/F&B, accommodations, A/V equipment, and venue spaces.
-* **Department Routing:** Incoming requirements are automatically directed to the specific internal teams responsible for fulfillment.
-* **Internal Master Calendar:** A centralized calendar view for management and staff to track booked dates, resource allocation, and logistical details.
-* **Direct Communication:** Integrated contact channels and direct messaging between clients and venue staff to resolve inquiries quickly.
+* **User Accounts & Roles:** Separate access for clients (to submit and review bookings) and venue coordinators (to review, approve, or cancel reservations).
+* **Space & Date Reservation:** Clients select specific venue spaces (banquet halls, meeting rooms, dining areas) and reserve them for set dates and time blocks.
+* **Availability & Conflict Prevention:** Real-time scheduling logic prevents double-booking venue spaces across overlapping dates.
+* **Internal Event Overview:** A centralized calendar view for management and staff to track booked dates, resource allocation, and logistical details.

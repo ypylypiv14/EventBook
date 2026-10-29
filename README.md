@@ -9,3 +9,11 @@ EventBook is a straightforward reservation and scheduling web platform designed 
 * **Space & Date Reservation:** Clients select specific venue spaces (banquet halls, meeting rooms, dining areas) and reserve them for set dates and time blocks.
 * **Availability & Conflict Prevention:** Real-time scheduling logic prevents double-booking venue spaces across overlapping dates.
 * **Internal Event Overview:** A centralized calendar view for management and staff to track booked dates, resource allocation, and logistical details.
+
+## Entity-Relationship Diagram (ERD)
+
+![EventBook ERD](./db_docs/ERD.png)
+
+## Business Rules
+
+![EventBook BUS.RULES](./db_docs/BUSINESS_RULES.png)

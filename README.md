@@ -24,10 +24,10 @@ EventBook is a straightforward reservation and scheduling web platform designed 
 * **The tables I implemented:** USER, EVENT, VENUE and RESERVATION.
 * **Brief explanation of how my tables interact:** A CLIENT(USER) creates an overarching EVENT, which can contain multiple individual VENUEs or time bookings, though each EVENT belongs to only one CLIENT(USER). Each RESERVATION books exactly one VENUE for a scheduled time slot, while that VENUE can host many different RESERVATIONs over time. Finally, an assigned STAFF_COORDINATOR(USER) can oversee several RESERVATIONs, but each RESERVATION is assigned to at most one COORDINATOR(USER).
 * **Here you can find my schema file:** ![Schema] (./db_docs/schema.sql)
-* **Successful table creation:**
- ![Database_Creation] (./images/database_creation.png)
-* **Tables Description(USER and EVENT):**
- ![Tables_Description] (./images/describe_tables.png)
+## Successful table creation:
+ ![Database_Creation](./images/database_creation.png)
+## Tables Description(USER and EVENT):
+ ![Tables_Description](./images/describe_tables.png)
 
 
 

@@ -21,7 +21,8 @@ EventBook is a straightforward reservation and scheduling web platform designed 
 ## Database Implementation
 
 * **The relational database system I used:** MariaDB.
-* **The tables i implemented:** USER, EVENT, VENUE and RESERVATION.
+* **The tables I implemented:** USER, EVENT, VENUE and RESERVATION.
 * **Brief explanation of how my tables interact:** A CLIENT(USER) creates an overarching EVENT, which can contain multiple individual VENUEs or time bookings, though each EVENT belongs to only one CLIENT(USER). Each RESERVATION books exactly one VENUE for a scheduled time slot, while that VENUE can host many different RESERVATIONs over time. Finally, an assigned STAFF_COORDINATOR(USER) can oversee several RESERVATIONs, but each RESERVATION is assigned to at most one COORDINATOR(USER).
+
 
   

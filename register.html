@@ -22,20 +22,24 @@
     </header> 
     <h1>Welcome to your EventBook!</h1>
     <h3>Register, book and let us take care about your <em>Special Day!</em></h3>
-    <form>
-        <label for="name"><i class="fa-regular fa-address-card"></i>Name: </label>
-        <input type="text" id="'name">
+    <form id = "registrationForm">
+        <label for="fname"><i class="fa-regular fa-address-card"></i>First Name: </label>
+        <input type="text" id="fname">
         <br>
-        <label for="username"><i class="fa-solid fa-user"></i>Username: </label>
-        <input type="text" id="username">
+        <label for="lname"><i class="fa-regular fa-address-card"></i>Last Name: </label>
+        <input type="text" id="lname">
         <br>
         <label for="email"><i class="fa-solid fa-at"></i>Email: </label>
-        <input type="email" id="'email">
+        <input type="email" id="email">
+        <br>
+        <label for="phone"><i class="fa-solid fa-user"></i>Phone: </label>
+        <input type="text" id="phone">
         <br>
         <label for="pswd"><i class="fa-solid fa-lock"></i>Password</label>
         <input type="password" id="pswd">
         <br>
         <input type="submit" value="Register!">
     </form> 
+    <script src ="scripts/user.js" defer></script>
 </body>
 </html>
